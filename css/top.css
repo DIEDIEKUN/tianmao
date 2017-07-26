@@ -1,0 +1,28 @@
+﻿body {
+    margin:0;
+    padding:0;
+}
+.red {
+    color:#C40000 !important;
+}
+nav#top { 
+    font-size:12px;
+    font-family:Arial;
+    background-color:#f2f2f2;
+    padding:5px;
+    border-bottom:1px solid #e7e7e7; 
+}
+nav#top a, nav#top span {
+    color:#999;    
+    margin:0px 10px 0px 10px;
+}
+nav#top a:hover {
+    color:#C40000;
+    text-decoration:none;
+}
+nav#top span.right {
+    float:right !important;
+}
+strong{
+    margin:0px 10px;
+}

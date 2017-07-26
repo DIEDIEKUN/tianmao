@@ -1,0 +1,11 @@
+﻿body {
+    font-size:12px;
+    font-family:Arial;
+}
+div.dealDone {
+    border:1px solid #efefef;
+    padding:30px;
+    font-weight:bold;
+    width:85%;
+    margin:20px auto;
+}

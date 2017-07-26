@@ -1,0 +1,85 @@
+﻿body {
+    font-family:Arial;
+    font-size:12px;
+}
+div.top{
+    height:70px;
+    position:relative;
+    overflow:hidden;
+}
+div img{
+   width:170px;
+   height:auto;
+   position:absolute;
+   left:60px;
+   top:-25px;
+}
+span.remind {
+    border:1px solid #C40000;
+    font-size:13px;
+    padding:10px;
+    position:absolute;
+    top:20px;
+    left:320px;
+}
+div.frame {
+    background-color:white;
+    border:1px solid black;
+    width:350px;
+    height:400px;
+    font-size:15px;
+    font-weight:bold;
+    padding:70px 30px;
+    position:relative;
+    top:100px;
+    left:800px;
+}
+div.input {
+    font-size:21px;
+    width:280px;
+    position:relative;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+div.input span {
+   font-size:20px;
+   position:absolute;
+   background-color:#999;
+   padding:7px;
+   left:1px;
+   top:1px;
+}
+div.input input {
+    padding-left:37px;    
+}
+div.background {
+    background-image:url(../img/site/loginBackground.png);
+    max-width:90%;
+    height:600px;
+    margin:20px auto;
+}
+input.button {
+    background-color:#C40000;
+    color:white;
+    text-align:center;
+    width:280px;
+    margin:60px auto;
+    height:35px;
+    border:none;
+}
+span.forget{
+    position:absolute;
+    font-weight:lighter;
+    left:35px;
+    bottom:135px;
+    color:#999;
+    font-size:13px;
+}
+span.register {
+    position:absolute;
+    font-weight:lighter;
+    right:35px;
+    bottom:135px;
+    color:#999;
+    font-size:13px;  
+}
